@@ -1,5 +1,5 @@
 {
-	"name": "Python 3 Sample",
+	"name": "unzip_s3_lambda_dev_container",
 	"context": "..",
 	"build": {
 		"dockerfile": "Dockerfile",
@@ -28,6 +28,7 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"ms-python.python"
+		// TODO: Add terraform plugin
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
